@@ -21,7 +21,7 @@
 ![AUC](https://img.shields.io/badge/AUC--ROC-0.828-e8a33d?style=flat-square)
 ![Customers](https://img.shields.io/badge/Customers-7%2C043-b0001e?style=flat-square)
 
-### [🎥 Watch Demo](YOUR_GOOGLE_DRIVE_LINK) &nbsp;•&nbsp; [🚀 Live App](YOUR_STREAMLIT_APP_LINK) &nbsp;•&nbsp; [📊 Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+### [🎥 Watch Demo](https://drive.google.com/drive/folders/1P5R7T2DsmGXi9dRZ_nxs-mNzC_MBM4Gb?usp=sharing) &nbsp;•&nbsp; [🚀 Live App](https://telco-churn-supervised-learning.streamlit.app) &nbsp;•&nbsp; [📊 Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 </div>
 
@@ -47,7 +47,7 @@
 
 <div align="center">
 
-[![Watch the demo](https://img.shields.io/badge/▶%20Watch%20Demo%20Video-Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/u/0/folders/1P5R7T2DsmGXi9dRZ_nxs-mNzC_MBM4Gb)
+[![Watch the demo](https://img.shields.io/badge/▶%20Watch%20Demo%20Video-Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1P5R7T2DsmGXi9dRZ_nxs-mNzC_MBM4Gb?usp=sharing)
 
 <!-- Optional: add an animated GIF of the app here -->
 <!-- <img src="images/demo.gif" width="800" alt="App demo"/> -->
