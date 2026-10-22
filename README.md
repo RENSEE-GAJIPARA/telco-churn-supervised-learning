@@ -104,11 +104,11 @@ flowchart LR
 
 | Target Distribution | Numeric Distributions |
 |:---:|:---:|
-| <img src="images/01_target_distribution.png" width="400"/> | <img src="images/02_distribution_of_tenure_monthlycharges_totalcharges.png" width="480"/> |
+| <img src="images/01.target_distribution.png" width="400"/> | <img src="images/02.distribution_of_tenure_monthlycharges_totalcharges.png" width="480"/> |
 
 | Correlation Heatmap | SMOTE Before / After |
 |:---:|:---:|
-| <img src="images/07_heatmap.png" width="400"/> | <img src="images/08_SMOTE_comparission.png" width="480"/> |
+| <img src="images/07.heatmap.png" width="400"/> | <img src="images/08.SMOTE_comparission.png" width="480"/> |
 
 </div>
 
@@ -133,9 +133,9 @@ Evaluated on a held-out test set of 1,409 customers (churn class metrics):
 
 | Tuning: Depth vs F1 | Confusion Matrix | ROC Curve |
 |:---:|:---:|:---:|
-| <img src="images/19_best_depth_of_DT.png" width="300"/> | <img src="images/20_best_DT_cm.png" width="300"/> | <img src="images/21_best_DT_roc_curve.png" width="300"/> |
+| <img src="images/19.best_depth_of_DT.png" width="300"/> | <img src="images/20.best_DT_cm.png" width="300"/> | <img src="images/21.best_DT_roc_curve.png" width="300"/> |
 
-<img src="images/22_comparission_of_all_models.png" width="520" alt="ROC all models"/>
+<img src="images/22.comparission_of_all_models.png" width="520" alt="ROC all models"/>
 
 </div>
 
