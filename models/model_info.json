@@ -1,0 +1,118 @@
+{
+  "final_model": "Decision Tree",
+  "features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges",
+    "tenure_group",
+    "num_services",
+    "AutoPay"
+  ],
+  "tc_median": 1397.475,
+  "threshold": 0.5,
+  "options": {
+    "InternetService": [
+      "DSL",
+      "Fiber optic",
+      "No"
+    ],
+    "Contract": [
+      "Month-to-month",
+      "One year",
+      "Two year"
+    ],
+    "PaymentMethod": [
+      "Bank transfer (automatic)",
+      "Credit card (automatic)",
+      "Electronic check",
+      "Mailed check"
+    ]
+  },
+  "ranges": {
+    "tenure": [
+      0.0,
+      72.0,
+      29.0
+    ],
+    "MonthlyCharges": [
+      18.25,
+      118.75,
+      70.35
+    ],
+    "TotalCharges": [
+      18.8,
+      8684.8,
+      1397.475
+    ]
+  },
+  "final_metrics": {
+    "Accuracy": 0.7473,
+    "Precision": 0.5155,
+    "Recall": 0.7995,
+    "F1-Score": 0.6268,
+    "AUC-ROC": 0.828,
+    "Training Time (s)": 0.0415
+  },
+  "all_results": [
+    {
+      "Model": "Naive Bayes",
+      "Accuracy": 0.7239,
+      "Precision": 0.4879,
+      "Recall": 0.8102,
+      "F1-Score": 0.609,
+      "AUC-ROC": 0.8175,
+      "Training Time (s)": 0.0072
+    },
+    {
+      "Model": "KNN",
+      "Accuracy": 0.7218,
+      "Precision": 0.4854,
+      "Recall": 0.7995,
+      "F1-Score": 0.604,
+      "AUC-ROC": 0.8173,
+      "Training Time (s)": 0.0052
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.7473,
+      "Precision": 0.5155,
+      "Recall": 0.7995,
+      "F1-Score": 0.6268,
+      "AUC-ROC": 0.828,
+      "Training Time (s)": 0.0415
+    },
+    {
+      "Model": "SVM",
+      "Accuracy": 0.7452,
+      "Precision": 0.5134,
+      "Recall": 0.7674,
+      "F1-Score": 0.6152,
+      "AUC-ROC": 0.8262,
+      "Training Time (s)": 10.2011
+    }
+  ],
+  "top_features": {
+    "Contract_Month-to-month": 0.5893,
+    "tenure": 0.1261,
+    "InternetService_Fiber optic": 0.0915,
+    "MonthlyCharges": 0.0793,
+    "Contract_One year": 0.0283,
+    "PhoneService": 0.0131,
+    "InternetService_No": 0.0118,
+    "num_services": 0.0091,
+    "Contract_Two year": 0.0091,
+    "PaymentMethod_Electronic check": 0.0086
+  },
+  "churn_rate": 0.2654,
+  "n_customers": 7043
+}
