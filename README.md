@@ -183,7 +183,7 @@ The tree misses 75 of 374 churners (20%). They average **26 months** tenure (vs 
 
 ## 🖥️ Streamlit App
 
-[![Open the app](https://img.shields.io/badge/🚀%20Open%20Live%20App-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](YOUR_STREAMLIT_APP_LINK)
+[![Open the app](https://img.shields.io/badge/🚀%20Open%20Live%20App-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://telco-churn-supervised-learning.streamlit.app/)
 &nbsp;
 
 | Tab | What it does |
